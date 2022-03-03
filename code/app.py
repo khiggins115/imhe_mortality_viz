@@ -1,12 +1,10 @@
 import streamlit as st
-import plotly.express as px
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-import plotly.figure_factory as ff
-import altair as alt
+
 
 from load_data import (
     load_health_data,
